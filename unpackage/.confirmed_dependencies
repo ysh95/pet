@@ -1,0 +1,287 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"fonts/iconfont.css",
+			"fonts/iconfont.svg",
+			"fonts/iconfont.ttf",
+			"css/pet.css",
+			"img/index-banner.jpg",
+			"js/castapp.js",
+			"js/jquery-3.2.1.min.js",
+			"home.html"
+		],
+		"refer": [
+			"home.html",
+			"service.html",
+			"shopping.html",
+			"user.html"
+		]
+	},
+	"guide.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/page.jpg",
+			"img/page1.png",
+			"img/page2.png",
+			"img/page4.png",
+			"img/page3.png",
+			"css/pet.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"home.html": {
+		"resources": [
+			"js/jquery-3.2.1.min.js",
+			"css/pet.css",
+			"img/index-banner.jpg",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/home-crown.jpg",
+			"img/wenda.png",
+			"img/jiangbei.png",
+			"js/resize.js",
+			"img/xiangqin.png",
+			"img/huangguan.png",
+			"img/home-cat-r-top.jpg",
+			"img/home-cat-r-bottom.jpg",
+			"img/home-cat-left.jpg",
+			"img/home-cat-head.png",
+			"fonts/iconfont.svg",
+			"fonts/iconfont.ttf",
+			"img/1.mp4",
+			"list-mcjs.html",
+			"img/home-mv.jpg",
+			"list-mcxq.html"
+		],
+		"refer": [
+			"list-mcjs.html",
+			"list-mcxq.html",
+			"tuijian-xqy.html",
+			"mv-xq.html"
+		]
+	},
+	"service.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/pet.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/resize.js",
+			"img/service-banner.jpg",
+			"img/service-t1.png",
+			"img/service-t2.png",
+			"img/service-t3.png",
+			"fonts/iconfont.svg",
+			"fonts/iconfont.ttf"
+		]
+	},
+	"user.html": {
+		"resources": [
+			"css/pet.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/resize.js",
+			"fonts/mui.ttf",
+			"fonts/iconfont.ttf",
+			"fonts/iconfont.svg",
+			"img/user-wdsc.png",
+			"img/user-head.jpg"
+		]
+	},
+	"list-mcjs.html": {
+		"resources": [
+			"css/pet.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/resize.js",
+			"img/mcjs-near-act1.jpg",
+			"img/mcjs-near-act3.jpg",
+			"img/mcjs-near-act2.jpg",
+			"img/mcjs-near-big1.jpg",
+			"img/mcjs-near-big2.jpg",
+			"img/mcjs-near-big3.jpg",
+			"mcjs-dxhd-xq.html",
+			"mcjs-near-xq.html"
+		],
+		"refer": [
+			"mcjs-dxhd-xq.html",
+			"mcjs-near-xq.html"
+		]
+	},
+	"mcjs-dxhd-xq.html": {
+		"resources": [
+			"img/mcjs-near-big2.jpg",
+			"fonts/mui.ttf",
+			"css/pet.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"list-mcjs.html"
+		],
+		"refer": [
+			"list-mcjs.html"
+		]
+	},
+	"mcjs-near-xq.html": {
+		"resources": [
+			"list-mcjs.html"
+		],
+		"refer": [
+			"list-mcjs.html"
+		]
+	},
+	"shopping.html": {
+		"resources": [
+			"img/shop-ylbj-rmtj.png",
+			"img/shopNav-lingshi.png",
+			"img/shopNav-more.png",
+			"img/shop-shzq-xrbs.png",
+			"img/shop-ylbj-hptj.png",
+			"img/shop-ylbj-bfxj.png",
+			"img/shop-sccwl.png",
+			"img/shop-mwls-gtls.png",
+			"img/shop-shzqbanner.png",
+			"img/shop-mwls-fghj.png",
+			"img/shopNav-wanju.png",
+			"img/shopylbj-bgmm.png",
+			"img/shop-ylbj-dxb.png",
+			"img/shoppzjx-hysy.png",
+			"img/shoppzjx-rmtj.png",
+			"img/shopNav-fushi.png",
+			"img/shop-mwls-rzls.png",
+			"img/shop-banner1.png",
+			"img/shoppzjx-hptj.png",
+			"img/shop-shzq-bjgw.png",
+			"img/shop-jjlky.png",
+			"img/shop-shzq-rmtj.png",
+			"img/shopNav-yongpin.png",
+			"img/shop-mwlsbanner.png",
+			"img/shop-shzq-hptj.png",
+			"img/shop-mwls-hptj.png",
+			"img/shoppzjx-kw.png",
+			"img/shop-jkxc.png",
+			"img/shop-ylbj-kqhl.png",
+			"img/shop-mwls-rptj.png",
+			"img/shopNav-yiliao.png",
+			"img/service-banner.jpg",
+			"img/shop-shzq-xdnp.png",
+			"img/shop-mwls-zz.png",
+			"img/shop-shzq-qyzb.png",
+			"img/shop-zhuayinL.png",
+			"img/shop-mwls-yzxy.png",
+			"img/shop-ylbjbanner.png",
+			"img/shop-shzq-rxmy.png",
+			"img/shopNav-xishu.png",
+			"img/shop-ylbj-pfhl.png",
+			"img/shop-zhuayinR.png",
+			"css/pet.css",
+			"js/mui.min.js",
+			"fonts/iconfont.svg",
+			"js/jquery-3.2.1.min.js",
+			"css/mui.min.css",
+			"fonts/iconfont.ttf",
+			"shop-food.html"
+		],
+		"refer": [
+			"shop-food.html"
+		]
+	},
+	"list-mcxq.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/pet.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"img/mcxq-t1.jpg",
+			"img/home-cat-left.jpg",
+			"mcxq-serch.html",
+			"img/mcxq_mg4.png",
+			"img/mcxq_qtxz3.png",
+			"img/mcxq_qtxz4.png",
+			"img/mcxq_ym5.png",
+			"img/mcxq_mg2.png",
+			"img/mcxq_qtxz1.png",
+			"img/mcxq_qtxz2.png",
+			"img/mcxq_mg3.png",
+			"img/mcxq_ym2.png",
+			"img/mcxq_ym4.png",
+			"img/mcxq_ym3.png"
+		],
+		"refer": [
+			"mcxq-serch.html",
+			"mcxq-xqy.html"
+		]
+	},
+	"mcxq-serch.html": {
+		"resources": [
+			"css/pet.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/iconfont.svg",
+			"fonts/iconfont.ttf",
+			"js/jquery-3.2.1.min.js",
+			"fonts/mui.ttf",
+			"img/mcxq-t1.jpg",
+			"list-mcxq.html"
+		],
+		"refer": [
+			"list-mcxq.html"
+		]
+	},
+	"mcxq-xqy.html": {
+		"resources": [
+			"css/pet.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"img/mcxq-xq-title.png"
+		]
+	},
+	"tuijian-xqy.html": {
+		"resources": [
+			"css/pet.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/resize.js",
+			"img/home-cat-r-top.jpg",
+			"fonts/iconfont.svg",
+			"fonts/iconfont.ttf",
+			"img/home-cat-r-bottom.jpg",
+			"img/home-cat-left.jpg",
+			"img/home-cat-head.png",
+			"img/tj-title.png",
+			"img/tj-title2.png"
+		]
+	},
+	"mv-xq.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/resize.js",
+			"css/pet.css",
+			"fonts/mui.ttf",
+			"fonts/iconfont.svg",
+			"img/home-mv.jpg",
+			"fonts/iconfont.ttf",
+			"img/home-cat-head.png",
+			"img/1.mp4",
+			"img/tj-title.png",
+			"img/tj-title2.png",
+			"img/home-mv1.jpg"
+		]
+	}
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>服务</title>
+		<link rel="stylesheet" type="text/css" href="css/pet.css"/>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/mui.min.js"></script>
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+	    <script type="text/javascript" src="js/resize.js"></script>
+	    <script type="text/javascript">
+	      	mui.init();
+	    </script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="header">
+		       <input type="search" class="search" placeholder="&#xe63e;洗澡/美容/医疗">
+		       <span>订单</span>
+		   </div>
+		    <div id="slider" class="mui-slider" >
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		            <img src="img/service-banner.jpg"/>
+		          </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="img/service-banner.jpg"/>
+		          </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		             <img src="img/service-banner.jpg"/>
+		          </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		             <img src="img/service-banner.jpg"/>
+		          </a>
+		        </div>
+		        <!-- 第四张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="img/service-banner.jpg">
+		          </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		             <img src="img/service-banner.jpg"/>
+		          </a>
+		        </div>
+		      </div>
+		      <div class="mui-slider-indicator mui-banner-btn">
+		        <div class="mui-indicator mui-button mui-active"></div>
+		        <div class="mui-indicator mui-button"></div>
+		        <div class="mui-indicator mui-button"></div>
+		        <div class="mui-indicator mui-button"></div>
+		      </div>
+		    </div>
+		    <div class="mui-service-box" id="mui-service-box">
+		    	<ul class="mui-service-nav">
+			    	<li class="cur">宠物医院</li>
+			    	<li>宠物美容</li>
+		    	</ul>
+		    	<ul class="mui-table-view cur">
+		    	    <li class="mui-table-view-cell mui-media" id="dk">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t1.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>多卡宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;20起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media" id="sc">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t2.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>圣宠宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;20起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media" id="pdg">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t3.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>派多格宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;25起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	</ul>
+		    	<ul class="mui-table-view">
+		    	    <li class="mui-table-view-cell mui-media" id="cwmr1">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t1.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>米果宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;20起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media" id="cwmr2">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t1.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>艾米宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;20起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media" id="cwmr3">
+		    	        <a class=" mui-service-list" href="javascript:;">
+		    	            <img class="mui-pull-left" src="img/service-t1.png">
+		    	            <div class="mui-media-body mui-service-right">
+		    	                <h2>派多格宠物店</h2>
+		    	                <div class="mui-service-pj">
+		    	                	<p>好评：
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span class="cur">&#xe503;</span>
+		    	                		<span>&#xe503;</span>
+		    	                	</p>
+		    	                	<p>已售：<i>3521</i></p>
+		    	                </div>
+		    	                <p class="mui-service-coupon">优惠券</p>
+		    	                <div class="mui-service-Bottom">
+		    	                	<p class="mui-service-adder">太原市平阳路高新街</p>
+		    	                	<p class="mui-service-Price1">&#xe504;25起</p>
+		    	                </div>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	</ul>
+		    </div>
+		</div>
+		<script type="text/javascript">
+			//自动轮播
+             var slider = mui("#slider");  
+    			slider.slider({  
+        			interval : 2000  
+    			}); 
+    			//选项卡
+			$(document).ready(function(){
+                 $(".mui-service-nav li").click(function () {
+                     var index=$(this).index();
+                     $(this).addClass("cur").siblings().removeClass("cur");
+                     $(this).parent().siblings().eq(index).addClass("cur").siblings().removeClass("cur");
+                });
+            })
+			//详情页
+			var box=document.getElementById("mui-service-box");
+				var arr_id=box.getElementsByClassName("mui-media");
+				for (var i=0;i<arr_id.length;i++) {
+					var pro=arr_id[i].getAttribute("id");
+					document.getElementById(pro).addEventListener("tap",tab_right);
+				};
+				function tab_right(){
+					mui.openWindow({
+						url:"service-cwyy-xqy.html",
+						id:"dkcwyy",
+						createNew:true,
+						show:{
+							aniShow:"slide-in-right",
+							duration:200
+						}
+					});
+				};
+		</script>
+	</body>
+</html>

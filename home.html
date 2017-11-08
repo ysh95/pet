@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/pet.css"/>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/mui.min.js"></script>
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+	    <script type="text/javascript" src="js/resize.js"></script>
+	    <script type="text/javascript">
+	      	mui.init();
+	    </script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		   	<h1 class="mui-title">首页</h1>
+		</header>
+		<div class="mui-content mui-home-cont" id="mui-h-video">
+		    <div id="slider" class="mui-slider" >
+		     <div class="mui-slider-group mui-slider-loop">
+		       <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		       <div class="mui-slider-item mui-slider-item-duplicate">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		       <!-- 第一张 -->
+		       <div class="mui-slider-item">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		       <!-- 第二张 -->
+		       <div class="mui-slider-item">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		       <!-- 第三张 -->
+		       <div class="mui-slider-item">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		       <!-- 第四张 -->
+		       <div class="mui-slider-item">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		       <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		       <div class="mui-slider-item mui-slider-item-duplicate">
+		         <a href="#">
+		           <img src="img/index-banner.jpg"/>
+		         </a>
+		       </div>
+		     </div>
+		     <div class="mui-slider-indicator">
+		       <div class="mui-indicator mui-active"></div>
+		       <div class="mui-indicator"></div>
+		       <div class="mui-indicator"></div>
+		       <div class="mui-indicator"></div>
+		     </div>
+		   </div>
+		    <ul class="mui-h-title">
+			   	<li>
+			   		<a href="#">
+			   			<div class="mui-h">
+			   				<img src="img/huangguan.png"/>
+			   			</div>
+			   			<h2>每周星榜</h2>
+			   		</a>
+			   	</li>
+			   	<li id="mcjs-home">
+			   		<a href="#">
+			   			<div class="mui-h">
+			   				<img src="img/jiangbei.png"/>
+			   			</div>
+			   			<h2>萌宠竞赛</h2>
+			   		</a>
+			   	</li>
+			   	<li>
+			   		<a href="#">
+			   			<div class="mui-h">
+			   				<img src="img/wenda.png"/>
+			   			</div>
+			   			<h2>在线问答</h2>
+			   		</a>
+			   	</li>
+			   	<li id="mcxq-home">
+			   		<a>
+			   			<div class="mui-h">
+			   				<img src="img/xiangqin.png"/>
+			   			</div>
+			   			<h2>萌宠相亲</h2>
+			   		</a>
+			   	</li>
+			</ul>
+		    <div class="mui-h-box" id="mui-h-box">
+		    	<ul class="mui-home-list">
+		    		<li class="cur">推荐</li>
+		    		<li>关注</li>
+		    		<li>MV</li>
+		    	</ul>
+		    	<div class="mui-show cur">
+		    		<div class="mui-cat mui-cat-IMG" id="show-img1">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<div class="mui-cat-img">
+		    		 	 		<img src="img/home-cat-left.jpg" alt="" />
+		    		 	 	</div>
+		    		 	 	<div class="mui-cat-r">
+			    		 	 	<div>
+			    		 	 	 	<img src="img/home-cat-r-top.jpg"/>
+			    		 	 	</div>
+			    		 	 	<div>
+			    		 	 		<img src="img/home-cat-r-bottom.jpg"/>
+			    		 	 	</div>
+			    		 	</div>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat mui-cat-video" id="show-vide1">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat mui-cat-IMG" id="show-img2">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<div class="mui-cat-img">
+		    		 	 		<img src="img/home-cat-left.jpg" alt="" />
+		    		 	 	</div>
+		    		 	 	<div class="mui-cat-r">
+			    		 	 	<div>
+			    		 	 	 	<img src="img/home-cat-r-top.jpg"/>
+			    		 	 	</div>
+			    		 	 	<div>
+			    		 	 		<img src="img/home-cat-r-bottom.jpg"/>
+			    		 	 	</div>
+			    		 	</div>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat  mui-cat-video" id="show-vide2">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    	</div>
+		    	<div class="mui-show">
+		    		<div class="mui-cat mui-cat-IMG" id="show-img3">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<div class="mui-cat-img">
+		    		 	 		<img src="img/home-cat-left.jpg" alt="" />
+		    		 	 	</div>
+		    		 	 	<div class="mui-cat-r">
+			    		 	 	<div>
+			    		 	 	 	<img src="img/home-cat-r-top.jpg"/>
+			    		 	 	</div>
+			    		 	 	<div>
+			    		 	 		<img src="img/home-cat-r-bottom.jpg"/>
+			    		 	 	</div>
+			    		 	</div>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人111</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat mui-cat-video" id="show-vide3">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat mui-cat-IMG" id="show-img4">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<div class="mui-cat-img">
+		    		 	 		<img id="tj-img13" src="img/home-cat-left.jpg" alt="" />
+		    		 	 	</div>
+		    		 	 	<div class="mui-cat-r">
+			    		 	 	<div>
+			    		 	 	 	<img id="tj-img14" src="img/home-cat-r-top.jpg"/>
+			    		 	 	</div>
+			    		 	 	<div>
+			    		 	 		<img id="tj-img15" src="img/home-cat-r-bottom.jpg"/>
+			    		 	 	</div>
+			    		 	</div>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		<div class="mui-cat  mui-cat-video" id="show-vide4">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    	</div>
+		   
+		        <div class="mui-show">
+		    		<div class="mui-cat mui-cat-video" id="show-vide5">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		
+		    		<div class="mui-cat mui-cat-video" id="show-vide6">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		
+		    		<div class="mui-cat mui-cat-video" id="show-vide7">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>一身尊贵气质的喵星人</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    		
+		    		<div class="mui-cat mui-cat-video" id="show-vide8">
+		    		 	<div class="mui-cat-top clear">
+		    		 	 	<img src="img/home-mv.jpg"/>
+		    		 	</div>
+		    		 	<div class="mui-cat-bottom">
+		    		     	<h2>威谦你酱，是思考什么喵生大事吗?</h2>
+		    		     	<div class="mui-cat-xx clear">
+		    		     		<div class="mui-cat-xx-l clear">
+		    		     			<div class="mui-cat-head">
+		    		     				<img src="img/home-cat-head.png"/>
+		    		     			</div>
+		    		     			<p>莫妮卡的姐姐</p>
+		    		     		</div>
+		    		     		<div class="mui-cat-xx-r">
+		    		     			<p class="mui-cat-laud"><span>&#xe501;</span>200</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe702;</span>232</p>
+		    		     			<p class="mui-cat-laud"><span>&#xe513;</span>15</p>
+		    		     		</div>
+		    		     	</div>
+		    		 	</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<script type="text/javascript">
+			//自动轮播
+             var slider = mui("#slider");  
+    			slider.slider({  
+        			interval : 2000  
+    			});  
+			//选项卡
+			$(document).ready(function(){
+                 $(".mui-home-list li").click(function () {
+                     var index=$(this).index();
+                     $(this).addClass("cur").siblings().removeClass("cur");
+                     $(this).parent().siblings().eq(index).addClass("cur").siblings().removeClass("cur");
+                });
+           });
+			window.onload=function(){
+				document.getElementById("mcjs-home").addEventListener("tap",function(){
+					mui.openWindow({
+						url:"list-mcjs.html",
+						id:"mcjs",
+						createNew:true,
+						show:{
+							anishow:"slide-in-right",
+							duration:200
+						},
+						waiting:{
+							title:"正在加载..."
+						}
+					});
+			    });
+			    document.getElementById("mcxq-home").addEventListener("tap",function(){
+					mui.openWindow({
+						url:"list-mcxq.html",
+						id:"list-mcxq",
+						createNew:true,
+						show:{
+							anishow:"slide-in-right",
+							duration:200
+						},
+						waiting:{
+							title:"正在加载..."
+						}
+					});
+			    });
+			    //推荐
+				var box=document.getElementById("mui-h-box");
+//				alert("box")
+				var arr_id=box.getElementsByClassName("mui-cat-IMG");
+				console.log(arr_id.length)
+				for (var i=0;i<arr_id.length;i++) {
+					var pro=arr_id[i].getAttribute("id");
+					console.log(pro);
+					document.getElementById(pro).addEventListener("tap",tab_right);
+				};
+				function tab_right(){
+					mui.openWindow({
+						url:"tuijian-xqy.html",
+						id:"tj-xq",
+						createNew:true,
+						show:{
+							aniShow:"slide-in-right",
+							duration:200
+						}
+					});
+				};
+				//mV
+				var video=document.getElementById("mui-h-video");
+//				alert("box")
+				var video_id=video.getElementsByClassName("mui-cat-video");
+//				console.log(video_id.length)
+				for (var j=0;j<video_id.length;j++) {
+					var vide=video_id[j].getAttribute("id");
+//					console.log(pro);
+					document.getElementById(vide).addEventListener("tap",video_right);
+				};
+				function video_right(){
+					mui.openWindow({
+						url:"mv-xq.html",
+						id:"mv-xq",
+						createNew:true,
+						show:{
+							aniShow:"slide-in-right",
+							duration:200
+						}
+					});
+				};
+			};
+		</script>
+		
+	</body>
+</html>

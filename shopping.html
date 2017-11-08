@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商城</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/pet.css"/>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+		   <div class="header">
+		       <input type="search" class="search" placeholder="&#xe63e;宠物幼儿营养品">
+		       <div class="xj">
+		       		&#xe605;
+		       </div>
+		       <span>订单</span>
+		   </div>
+		   <div id="slider" class="mui-slider" >
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/service-banner.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			
+				<script type="text/javascript">
+					var slider = mui("#slider");
+							slider.slider({
+								interval: 3000
+							});
+				</script>
+			</div>
+			<!--菜单栏-->
+			<div class="shopNav">
+				<a href="shop-food.html">
+					<div class="p-img">
+						<img src="img/shopNav-lingshi.png" alt="" />
+					</div>
+					<h2>零食</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-wanju.png" alt="" />
+					</div>
+					<h2>玩具</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-yiliao.png" alt="" />
+					</div>
+					<h2>医疗</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-yongpin.png" alt="" />
+					</div>
+					<h2>用品</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-fushi.png" alt="" />
+					</div>
+					<h2>服饰</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-xishu.png" alt="" />
+					</div>
+					<h2>洗漱</h2>
+				</a>
+				<a href="">
+					<div class="p-img">
+						<img src="img/shopNav-more.png" alt="" />
+					</div>
+					<h2>更多</h2>
+				</a>
+			</div>
+			<div class="shopMain">
+				<div class="pzjx">
+					<div class="title">
+						<div class="titleT">
+							<img src="img/shop-zhuayinL.png" alt="" />
+							<h2>品质精选</h2>
+							<img src="img/shop-zhuayinR.png" alt="" />
+						</div>
+						<div class="p-banner">
+							<a href=""><img src="img/shop-banner1.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="content">
+						<div class="conL">
+							<a href="">
+								<img src="img/shoppzjx-kw.png" alt="" />
+								<div class="p-con">
+									<h2>Orijen  渴望</h2>
+									<p>美毛专用配方粮</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shoppzjx-hptj.png" alt="" />
+								<div class="p-con">
+									<h2>好评推荐</h2>
+									<p>储粮桶密封保鲜</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shoppzjx-rmtj.png" alt="" />
+								<div class="p-con">
+									<h2>热门推荐</h2>
+									<p>户外实木别墅</p>
+								</div>
+							</a>
+						</div>
+						<div class="conR">
+							<a href="">
+								<img src="img/shoppzjx-hysy.png" alt="" />
+								<div class="p-con">
+									<h2>荒野盛宴</h2>
+									<p>野性的味道</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-sccwl.png" alt="" />
+								<div class="p-con">
+									<h2>蔬菜宠物粮</h2>
+									<p>健康美颜两不误</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-jkxc.png" alt="" />
+								<div class="p-con">
+									<h2>极客新宠</h2>
+									<p>3D立体<br> 马克杯</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-jjlky.png" alt="" />
+								<div class="p-con">
+									<h2>解决乱啃咬</h2>
+									<p>教你玩转KONG</p>
+								</div>
+							</a>
+						</div>	
+					</div>
+				</div>
+				<div class="mwls">
+					<div class="title">
+						<div class="titleT">
+							<img src="img/shop-zhuayinL.png" alt="" />
+							<h2>美味零食</h2>
+							<img src="img/shop-zhuayinR.png" alt="" />
+						</div>
+						<div class="p-banner">
+							<a href=""><img src="img/shop-mwlsbanner.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="content">
+						<div class="conT">
+							<a href="">
+								<img src="img/shop-mwls-fghj.png" alt="" />
+								<div class="p-con">
+									<h2>法国皇家</h2>
+									<p>哺乳期幼犬及<br> 母犬营养粮</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-mwls-gtls.png" alt="" />
+								<div class="p-con">
+									<h2>罐头零食</h2>
+									<p>第二件半价</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-mwls-rzls.png" alt="" />
+								<div class="p-con">
+									<h2>肉质零食</h2>
+									<p>萌宠也爱小鲜肉</p>
+								</div>
+							</a>
+						</div>
+						<div class="conB">
+							<a href="">
+								<img src="img/shop-mwls-hptj.png"/>
+								<div class="p-con">
+									<h2>好评推荐</h2>
+									<p>优护营养 <br>非凡一生</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-mwls-yzxy.png"/>
+								<div class="p-con">
+									<h2>优质小鱼</h2>
+									<p>小喵的最爱</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-mwls-rptj.png"/>
+								<div class="p-con">
+									<h2>热门推荐</h2>
+									<p>优质奶源 <br>营养丰富</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-mwls-zz.png"/>
+								<div class="p-con">
+									<h2>ZEAL真挚</h2>
+									<p>小喵的最爱</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="shzq">
+					<div class="title">
+						<div class="titleT">
+							<img src="img/shop-zhuayinL.png" alt="" />
+							<h2>生活专区</h2>
+							<img src="img/shop-zhuayinR.png" alt="" />
+						</div>
+						<div class="p-banner">
+							<a href=""><img src="img/shop-shzqbanner.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="content">
+						<div class="conL">
+							<a href="">
+								<img src="img/shop-shzq-xdnp.png" alt="" />
+								<div class="p-con">
+									<h2>训导尿片</h2>
+									<p>训练排便没烦恼</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-shzq-hptj.png" alt="" />
+								<div class="p-con">
+									<h2>好评推荐</h2>
+									<p>挑选食具<br> 小技巧</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-shzq-rmtj.png" alt="" />
+								<div class="p-con">
+									<h2>热门推荐</h2>
+									<p>美美的 <br>帅帅的</p>
+								</div>
+							</a>
+						</div>
+						<div class="conR">
+							<a href="">
+								<img src="img/shop-shzq-xrbs.png" alt="" />
+								<div class="p-con">
+									<h2>夏日补水</h2>
+									<p>饮水机 <br>人气推荐</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-shzq-qyzb.png" alt="" />
+								<div class="p-con">
+									<h2>牵引装备</h2>
+									<p>搭配套餐更实惠</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-shzq-bjgw.png" alt="" />
+								<div class="p-con">
+									<h2>不惧高温</h2>
+									<p>夏季窝垫 <br>9折优惠</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-shzq-rxmy.png" alt="" />
+								<div class="p-con">
+									<h2>热销沐浴</h2>
+									<p>常洗澡澡<br>毛发好好</p>
+								</div>
+							</a>
+						</div>	
+					</div>
+				
+				</div>
+				<div class="ylbj">
+					<div class="title">
+						<div class="titleT">
+							<img src="img/shop-zhuayinL.png" alt="" />
+							<h2>医疗保健</h2>
+							<img src="img/shop-zhuayinR.png" alt="" />
+						</div>
+						<div class="p-banner">
+							<a href=""><img src="img/shop-ylbjbanner.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="content">
+						<div class="conL">
+							<a href="">
+								<img src="img/shop-ylbj-dxb.png" alt="" />
+								<div class="p-con">
+									<h2>犬心保</h2>
+									<p>寄生虫的克星</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-ylbj-hptj.png" alt="" />
+								<div class="p-con">
+									<h2>好评推荐</h2>
+									<p>调节免疫力</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-ylbj-rmtj.png" alt="" />
+								<div class="p-con">
+									<h2>热门推荐</h2>
+									<p>养肠护胃</p>
+								</div>
+							</a>
+						</div>
+						<div class="conR">
+							<a href="">
+								<img src="img/shop-ylbj-bfxj.png" alt="" />
+								<div class="p-con">
+									<h2>缤纷夏季</h2>
+									<p>体内外驱虫</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-ylbj-pfhl.png" alt="" />
+								<div class="p-con">
+									<h2>皮肤护理</h2>
+									<p>对抗螨虫癣症</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shopylbj-bgmm.png" alt="" />
+								<div class="p-con">
+									<h2>补钙美毛</h2>
+									<p>促生长 <br>亮毛发</p>
+								</div>
+							</a>
+							<a href="">
+								<img src="img/shop-ylbj-kqhl.png" alt="" />
+								<div class="p-con">
+									<h2>口腔护理</h2>
+									<p>预防口臭</p>
+								</div>
+							</a>
+						</div>	
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
